@@ -3,6 +3,8 @@ html, body {
   margin: 0;
 }
 
+/* header */
+
 .header-image {
   height: auto;
   width: 200px;
@@ -16,8 +18,7 @@ html, body {
   background-color: #1f2937;
 }
 
-ul {
-  list-style: none;
+.links {
   display: flex;
   margin: 0px;
   gap: 8px;
@@ -28,10 +29,13 @@ ul {
   color: #f9faf8;
 }
 
-.header-list {
+.links a{
   font-size: 18px;
   color: #e5e7eb;
+  text-decoration: none;
 }
+
+/* header-info */
 
 .header-info {
   display: flex;
