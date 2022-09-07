@@ -58,6 +58,8 @@ ul {
 button {
   background-color: #3882f6;
   color: #f9faf8;
+  border-radius: 8px;
+  padding: 4px 16px;
 }
 
 .content  {
@@ -124,6 +126,10 @@ button {
 
 .action {
   font-weight: bold;
+}
+
+.signup-2 {
+  border: solid white;
 }
 
 footer {
