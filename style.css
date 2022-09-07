@@ -1,15 +1,11 @@
-.image  {
-  max-width: 200px;
-  max-height: 200px;
+html, body {
+  height: 100vh;
+  margin: 0;
 }
 
-ul {
-  display: flex;
-  /* padding: 0; */
-  margin: 0px;
-  list-style: none;
-  /*this is how to add space between the items*/
-  gap: 8px;
+.header-image {
+  height: auto;
+  width: 200px;
 }
 
 .header {
@@ -17,6 +13,115 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   padding: 20px 48px;
-  
+  background-color: #1f2937;
 }
 
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-list {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-info {
+  display: flex;
+  background-color: #1f2937;
+  padding: 48px;
+  /* justify-content: center; */
+}
+
+.container-1 {
+  padding-right: 64px;
+}
+
+.hero {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.content  {
+  padding: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.information {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+
+.image  {
+  height: auto;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.flex-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 200px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  padding: 48px;
+}
+
+.quotee {
+  font-weight: bold;
+  display: flex;
+  justify-content: end;
+}
+
+.whoknows {
+  /* background-color: #e5e7eb; */
+  display: flex;
+  justify-content: center;
+}
+.sign-up {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between; 
+  width: 74%;
+  height: auto;
+  margin: 32px;
+  border-radius: 10px;
+}
+
+.action {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+}
